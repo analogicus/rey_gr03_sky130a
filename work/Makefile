@@ -11,9 +11,9 @@
 
 PREFIX=
 LIB=REY_GR03_SKY130A
-CELL=REY_GR03
+CELL=tt_um_rey_gr03_analogicus
 
 #- Provide cells you want to check for the lvsall drcall commands
-CELLS = REY_GR03
+CELLS = REY_GR03 tt_um_rey_gr03_analogicus
 
 include ../tech/make/core.make
